@@ -1,4 +1,5 @@
-package com.loucaskreger.replanter;
+package dev.haxr.replanterfork;
+
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
@@ -14,8 +15,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 
-public class Replanter implements ModInitializer {
 
+public class ReplanterFork implements ModInitializer {
     private static final MinecraftClient mc = MinecraftClient.getInstance();
 
     @Override
